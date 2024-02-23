@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Молоко",
+    "cost": 2.49,
+    "countInBase": 150
+  },
+  {
+    "id": 2,
+    "name": "Хлеб",
+    "cost": 1.29,
+    "countInBase": 60
+  },
+  {
+    "id": 3,
+    "name": "Масло",
+    "cost": 3.19,
+    "countInBase": 40
+  },
+  {
+    "id": 4,
+    "name": "Форель",
+    "cost": 12.29,
+    "countInBase": 132
+  },
+  {
+    "id": 5,
+    "name": "Яйца",
+    "cost": 2.99,
+    "countInBase": 56
+  },
+  {
+    "id": 6,
+    "name": "Сахар",
+    "cost": 1.79,
+    "countInBase": 400
+  },
+  {
+    "id": 7,
+    "name": "Картофель",
+    "cost": 0.59,
+    "countInBase": 367
+  },
+  {
+    "id": 8,
+    "name": "Чай (чёрный)",
+    "cost": 2.59,
+    "countInBase": 152
+  },
+  {
+    "id": 9,
+    "name": "Кофе",
+    "cost": 5.99,
+    "countInBase": 229
+  },
+  {
+    "id": 10,
+    "name": "Вырезка говяжья",
+    "cost": 8.49,
+    "countInBase": 76
+  },
+  {
+    "id": 11,
+    "name": "Томат",
+    "cost": 3.69,
+    "countInBase": 59
+  },
+  {
+    "id": 12,
+    "name": "Шоколад",
+    "cost": 1.89,
+    "countInBase": 48
+  },
+  {
+    "id": 13,
+    "name": "Макароны",
+    "cost": 1.69,
+    "countInBase": 124
+  },
+  {
+    "id": 14,
+    "name": "Колбаса",
+    "cost": 7.49,
+    "countInBase": 87
+  },
+  {
+    "id": 15,
+    "name": "Сыр",
+    "cost": 7.99,
+    "countInBase": 58
+  },
+  {
+    "id": 16,
+    "name": "Яблоко",
+    "cost": 1.89,
+    "countInBase": 37
+  },
+  {
+    "id": 17,
+    "name": "Вода питьевая",
+    "cost": 1.39,
+    "countInBase": 528
+  }
+]
