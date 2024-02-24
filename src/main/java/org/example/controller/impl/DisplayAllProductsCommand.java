@@ -28,7 +28,7 @@ public class DisplayAllProductsCommand implements Command {
             response = "Что-то пошло не так";
         }
 
-        response = "";
+        response = products.toString();
 
         if(products.isEmpty()) {
             response = "База данных пуста";
