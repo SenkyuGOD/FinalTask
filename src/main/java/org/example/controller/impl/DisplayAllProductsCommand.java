@@ -5,7 +5,6 @@ import org.example.entity.Product;
 import org.example.logic.LogicException;
 import org.example.logic.LogicProvider;
 import org.example.logic.ProductLogic;
-import org.example.output.ProductOutput;
 
 import java.util.List;
 
