@@ -39,7 +39,7 @@ public class CreateDB {
         try (PrintWriter writer = new PrintWriter("ProductsDataBase.txt")){
             writer.println(myJsonProducts);
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
     }
 }
