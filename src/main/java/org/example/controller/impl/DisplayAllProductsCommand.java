@@ -30,6 +30,9 @@ public class DisplayAllProductsCommand implements Command {
 
         response = "";
 
+        if(products.isEmpty()) {
+            response = "База данных пуста";
+        }
 
         return response;
     }
