@@ -20,10 +20,6 @@ public class Bucket {
         }
     }
 
-    public  void clear() {
-        bucket.clear();
-    }
-
     public  void delete(String product) {
         for (int i = 0; i < bucket.size(); i++) {
             if (bucket.get(i).getName().equals(product)) {
