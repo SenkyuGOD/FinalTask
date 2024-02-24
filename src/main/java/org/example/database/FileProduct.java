@@ -23,10 +23,7 @@ public class FileProduct {
             Gson gson = new Gson();
             Product[] productsArray = gson.fromJson(reader, Product[].class);
             products.clear();
-            for (Product product : productsArray) {
-                products.add(product);
-            }
-
+            Collections.addAll(products, productsArray);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
