@@ -26,10 +26,6 @@ public class DisplayBucketCommand implements Command {
             throw new RuntimeException(e);
         }
 
-        ProductOutput output = new ProductOutput();
-
-        output.printBucket(products);
-
         response = "";
 
         if (products.isEmpty()) {
