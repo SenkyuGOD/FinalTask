@@ -26,7 +26,7 @@ public class DisplayBucketCommand implements Command {
             throw new RuntimeException(e);
         }
 
-        response = "";
+        response = products.toString();
 
         if (products.isEmpty()) {
             response = "Корзина пуста";
