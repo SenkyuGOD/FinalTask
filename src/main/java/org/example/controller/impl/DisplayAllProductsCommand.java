@@ -28,10 +28,6 @@ public class DisplayAllProductsCommand implements Command {
             response = "Что-то пошло не так";
         }
 
-        ProductOutput output = new ProductOutput();
-
-        output.print(products);
-
         response = "";
 
 
