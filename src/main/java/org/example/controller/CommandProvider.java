@@ -5,9 +5,6 @@ import org.example.controller.impl.*;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.example.controller.CommandName.ADD_PRODUCT_TO_BUCKET;
-import static org.example.controller.CommandName.TOTAL_AMOUNT_OF_BUCKET;
-
 public class CommandProvider {
     private final Map<CommandName, Command> repository = new HashMap<>();
 
